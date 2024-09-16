@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fae1dd;
+    display: flex;
+    flex-direction: column; /* Cambiado a column para apilar verticalmente */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.logodepizza {
+    margin-bottom: 1px;
+    height: 35px;
+}
+
+.fotodepizza {
+    margin-bottom: 10px;
+    height: 30px;
+    }
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#pizza-form {
+    margin-bottom: 20px;
+}
+
+#pizza-id {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2a9d56;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f8edeb;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
+
+    .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+    .card h2 {
+    font-size: 1.5rem;
+    margin: 16px 0;
+}
+
+    .card p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 8px 0;
+}
+
+    .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+    .card li {
+    margin: 4px 0;
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+    .card li:last-child {
+    border-bottom: none;
+}
+
+#result-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
